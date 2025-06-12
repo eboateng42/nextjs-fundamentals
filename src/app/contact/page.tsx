@@ -4,14 +4,14 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 function Contact() {
   const router = useRouter();
-  const pathName = usePathname();
-  const searchParams = useSearchParams();
-  console.log(router);
-  console.log(pathName);
-  console.log(searchParams);
-  console.log(searchParams.get("name"));
-  console.log(searchParams.getAll("name"));
-  console.log(searchParams.has("age"));
+  // const pathName = usePathname();
+  // const searchParams = useSearchParams();
+  // console.log(router);
+  // console.log(pathName);
+  // console.log(searchParams);
+  // console.log(searchParams.get("name"));
+  // console.log(searchParams.getAll("name"));
+  // console.log(searchParams.has("age"));
 
   const handleNavigation = () => router.push("/");
 
